@@ -1,0 +1,85 @@
+<html>
+  <head>
+<title> Kod Kampüsü | HTML Site Düzeni </title>
+   <style>
+header {
+    background-color:SeaGreen;
+    color:white;
+    padding:10px;	 
+    text-align:center;
+}
+ 
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: MediumSeaGreen;
+}
+ 
+li {
+    float: left;
+}
+ 
+li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+ 
+nav {
+    background-color:LightGreen;
+    width:100px;
+    height:300px;
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    line-height:30px;
+}
+ 
+section {
+    width:490px;
+    padding:25px;
+    float:left;	 
+ 
+}
+ 
+footer {
+    background-color:DarkSeaGreen;
+    color:white;
+    text-align:center;
+    clear:both;
+    padding:5px;	 	 
+}
+   <style>
+  </head>
+  <body>
+ 
+<header>
+<h1>WEB SİTEM</h1>
+</header>
+ 
+<ul>
+<li><a href="https://www.kodkampusu.com">Hakkımda</a></li>
+<li><a href="https://www.kodkampusu.com">CV</a></li>
+</ul>
+ 
+<nav>
+
+ 
+<section>
+<h1>Merhaba Dünya !</h1>
+<p>Herkese merhabalar web siteme hoşgeldiniz.Üst menülerden size yardımcı olabilecek seçeneklere gidebilirsiniz.</p>
+</section>
+ 
+<footer>
+Copyright © 2022 | WEB SİTEM | Tüm Hakları Saklıdır.
+</footer>
+ 
+  </body>
+</html>
