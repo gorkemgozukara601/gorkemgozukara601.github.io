@@ -1,123 +1,99 @@
-header {
-    background-color:red;
-    color:white;
-    padding:10px;	 
-    text-align:center;
-}
- 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    background-color: Mediumred;
-}
- 
-li {
-    float: left;
-}
- 
-li a {
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-}
- 
-nav {
-    background-color:Lightred;
-    width:100px;
-    height:300px;
-    float:left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    line-height:30px;
-}
- 
-section {
-    width:490px;
-    padding:25px;
-    float:left;	 
- 
-}
- 
-footer {
-    background-color:Darkred;
-    color:white;
-    text-align:center;
-    clear:both;
-    padding:5px;	 	 
-}
-<!DOCTYPE html>
-<html>
+<head><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Sekme Başlığı</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>sayfa başlığı</title>
+
+    <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(https://i.hizliresim.com/17Pq05.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #(** ! Küfür Etmek Yasaktır - Oto Filtre ! **) { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+    </style>
 </head>
-    <body>
-        <header>
-            <div class="kutu">
-                <a href="#" class="logo">GorkemGozukara1</a>
-                <ul class="menu">
-                    <li class="mevcut">
-                        <a href="#">Anasayfa</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolyo</a>
-                    </li>
-                    <li>
-                        <a href="#">Hakkımda</a>
-                    </li>
-                    <li>
-                        <a href="#">İletişim</a>
-                    </li>
+
+<body>
+
+    <div id="page-wrap">
+   
+        <img src="sizin resminiz" alt="Photo of Cem GÖKÇE" id="(** ! Küfür Etmek Yasaktır - Oto Filtre ! **)" />
+   
+        <div id="contact-info" class="vcard">
+       
+            <!-- Microformats! -->
+       
+            <h1 class="fn">isim soyisim</h1>
+       
+            <p>
+              <b>Telefon Numarası:</b> <span class="tel">buraya yazılacak</span><br />
+                <b>E-Mail Adresi:</b> <span class="email">buraya yazılacak</span>
+            </p>
+        </div>
+               
+        <div id="objective">
+            <p>
+
+            </p>
+        </div>
+       
+        <div class="clear"></div>
+       
+        <dl>
+            <dd class="clear"></dd>
+           
+            <dt>Eğitim</dt>
+            <dd>
+                <p><strong>Buraya yazılacak</p>
+            </dd>
+           
+            <dd class="clear"></dd>
+           
+            <dt>Yabancı Dil</dt>
+            <dd>     
+                <p><strong>Almanca:</strong> İyi Derece<br />
+                  <strong>İngilizce:</strong> Orta Derece</p>
+            </dd>
+           
+            <dd class="clear"></dd>
+           
+            <dt>Deneyim</dt>
+            <dd>
+                <h2>Çalışılan Yer<span>Tarih</span></h2>
+                <ul>
+                    <li>Çalıştığı Yer'de Yaptığı Görev</li>
                 </ul>
-            </div>
-        </header>
-        <main>
-            <div class="kutu">
-                <h1>Bilgisayar Mühendisliği Nedir</h1>
-                <p>Bilgisayar mühendisliği; bilgisayar donanımı ve yazılımını geliştirmek için gerekli olan bilgisayar bilimi ve elektronik mühendisliğinin çeşitli alanlarını birleştiren bir mühendislik dalıdır. Bilgisayar mühendisliği aynı zamanda bu alanda çalışmalar gerçekleştirecek mühendislerin eğitimini amaçlayan akademik bir disiplindir.</p>
-                <p>Bilgisayar mühendisliği, elektrik mühendisliği ve bilgisayar biliminin birleşimidir. Bilgisayar mühendisliği bölümleri, direnç, kapasitör ve indüktör devrelerinde voltaj ve akım hakkında bilgi edinecekleri temel devre analiz sınıflarını alacaktır. Ayrıca bilgisayar mühendisleri bellek, kayıtlar, mikroişlemciler ve daha fazla bilgisayar donanımı hakkında bilgi edinirler.</p>
-                <h2>Bilgisayar Mühendisleri ne iş yapar,nerelerde çalışır</h2>
-                <p>Bilgisayar mühendisleri yazılım, donanım, sistem ve ağ (network) alanlarında;
-Yazılım Uzmanı,
-Veri Analisti,
-Kalite Kontrol ve Test Uzmanı,
-Web Tasarım Uzmanı,
-Bankalarda Veritabanı Uzmanı,
-Grafik Tasarımı ve Çizimi,
-Kontrol Mühendisliği,
-Donanım Mühendisliği,
-Veri Mimarı,
-Konfigürasyon Yöneticisi,
-Ağ İnternet Uzmanı,
-Robotik Mühendisliği.</p>
-         </div>      
-        </main>
-        <footer>
-            <div class="kutu">
-                <ul class="menu">
-                    <li class="mevcut">
-                        <a href="#">Anasayfa</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolyo</a>
-                    </li>
-                    <li>
-                        <a href="#">Hakkımda</a>
-                    </li>
-                    <li>
-                        <a href="#">İletişim</a>
-                    </li>
-                </ul>
-                <p class="copyright">Tüm Hakları Saklıdır © Görkemin Portföyü 2022</p>
-            </div>
-        </footer>
-    </body>
-</html>
+            </dd>   
+            <dd class="clear"></dd>
+           
+            <dt>Referanslar</dt>
+            <dd>                <ul>
+                    <li><b>Referans Adı:</b> Telefon Numarası</li>
+                </ul></dd>
+           
+            <dd class="clear"></dd>
+        </dl>
+       
+        <div class="clear"></div>
+   
+    </div>
+
+</body>
+
+</html></head>
